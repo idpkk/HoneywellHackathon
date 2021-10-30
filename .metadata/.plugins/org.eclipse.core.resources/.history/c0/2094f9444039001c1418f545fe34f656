@@ -1,0 +1,12 @@
+package com.example.demo.honeywell.dto;
+
+import java.util.List;
+import java.util.UUID;
+
+public class OrderDetails {
+	
+	private UUID orderId;
+	private List<Product> products;
+	private double totalPrice;
+	
+}

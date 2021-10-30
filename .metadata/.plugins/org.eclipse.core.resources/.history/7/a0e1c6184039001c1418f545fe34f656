@@ -1,0 +1,12 @@
+package com.example.demo.honeywell.dto;
+
+import java.util.UUID;
+
+public class Product {
+	
+	private UUID id;
+	private String name;
+	private float price;
+	
+
+}
